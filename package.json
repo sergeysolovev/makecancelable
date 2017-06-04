@@ -1,5 +1,5 @@
 {
-  "name": "make-cancelable",
+  "name": "makecancelable",
   "version": "0.1.0",
   "description": "Yet another make-cancelable Promise wrapper",
   "main": "index.js",
@@ -11,8 +11,12 @@
     "url": "git+https://github.com/sergeysolovev/make-cancelable.git"
   },
   "keywords": [
+    "javascript",
     "promise",
-    "cancel"
+    "cancelable",
+    "cancel",
+    "react",
+    "es6"
   ],
   "author": "Sergey Solovev <me@sergeysolovev.com>",
   "license": "MIT",
