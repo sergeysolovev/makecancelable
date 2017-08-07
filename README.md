@@ -57,6 +57,18 @@ const makeCancelable = (promise, onfulfilled, onrejected) => {
 };
 ```
 
+## Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+[SemVer](http://semver.org/) is used for versioning. For the versions available, see the [tags on this repository](https://github.com/sergeysolovev/make-cancelable/tags).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Credits
 - [@istarkov](https://github.com/istarkov) for original makeCancelable implementation [here](https://github.com/facebook/react/issues/5465#issuecomment-157888325);
 - [@jwbay](https://github.com/jwbay) for suggesting flushPromises [here](https://github.com/facebook/jest/issues/2157#issuecomment-279171856) to use in tests.
