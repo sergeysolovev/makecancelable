@@ -13,7 +13,7 @@ Suggested `makeCancelable` wraps target promise and returns `cancel()` function,
 
 The advantage of this implementation is that it wraps and handles the promise in a single statement. Check out Example section below to see how simple it is.
 
-For complete specification, see [makeCancellable.tests.js](https://github.com/sergeysolovev/makecancelable/blob/master/src/makeCancelable.test.js).
+For complete specification, see [makeCancellable.test.js](https://github.com/sergeysolovev/makecancelable/blob/master/src/makeCancelable.test.js).
 
 ## Example: React container component
 Without `makeCancelable`:
