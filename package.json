@@ -2,8 +2,10 @@
   "name": "makecancelable",
   "version": "0.1.0",
   "description": "Yet another make-cancelable Promise wrapper",
-  "main": "index.js",
+  "main": "dist/makeCancelable.js",
   "scripts": {
+    "build": "babel src -d dist",
+    "prepublishOnly": "npm run build",
     "test": "jest"
   },
   "repository": {
@@ -25,6 +27,7 @@
   },
   "homepage": "https://github.com/sergeysolovev/make-cancelable#readme",
   "devDependencies": {
+    "babel-cli": "6.24.1",
     "babel-jest": "20.0.3",
     "babel-preset-es2015": "6.24.1",
     "jest": "20.0.4",
