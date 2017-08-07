@@ -1,7 +1,7 @@
 {
   "name": "makecancelable",
   "version": "0.1.0",
-  "description": "Yet another make-cancelable Promise wrapper",
+  "description": "Yet another makeCancelable Promise wrapper",
   "main": "dist/makeCancelable.js",
   "scripts": {
     "build": "babel src -d dist",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sergeysolovev/make-cancelable.git"
+    "url": "git+https://github.com/sergeysolovev/makecancelable.git"
   },
   "keywords": [
     "javascript",
@@ -23,9 +23,9 @@
   "author": "Sergey Solovev <me@sergeysolovev.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sergeysolovev/make-cancelable/issues"
+    "url": "https://github.com/sergeysolovev/makecancelable/issues"
   },
-  "homepage": "https://github.com/sergeysolovev/make-cancelable#readme",
+  "homepage": "https://github.com/sergeysolovev/makecancelable#readme",
   "devDependencies": {
     "babel-cli": "6.24.1",
     "babel-jest": "20.0.3",

@@ -1,5 +1,5 @@
-# make-cancelable
-Yet another make-cancelable Promise wrapper,
+# makecancelable
+Yet another makeCancelable Promise wrapper,
 inspired by [this](https://facebook.github.io/react/blog/2015/12/16/ismounted-antipattern.html) article from React blog.
 
 ## Usage
@@ -13,7 +13,7 @@ Suggested `makeCancelable` wraps target promise and returns `cancel()` function,
 
 The advantage of this implementation is that it wraps and handles the promise in a single statement. Check out Example section below to see how simple it is.
 
-For complete specification, see [makeCancellable.tests.js](https://github.com/sergeysolovev/make-cancelable/blob/master/src/makeCancelable.test.js).
+For complete specification, see [makeCancellable.tests.js](https://github.com/sergeysolovev/makecancelable/blob/master/src/makeCancelable.test.js).
 
 ## Example: React container component
 Without `makeCancelable`:
@@ -63,7 +63,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Versioning
 
-[SemVer](http://semver.org/) is used for versioning. For the versions available, see the [tags on this repository](https://github.com/sergeysolovev/make-cancelable/tags).
+[SemVer](http://semver.org/) is used for versioning. For the versions available, see the [tags on this repository](https://github.com/sergeysolovev/makecancelable/tags).
 
 ## License
 
