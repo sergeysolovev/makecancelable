@@ -1,4 +1,7 @@
 # makecancelable
+
+[![CircleCI](https://circleci.com/gh/sergeysolovev/makecancelable.svg?style=shield)](https://circleci.com/gh/sergeysolovev/makecancelable)
+
 Yet another makeCancelable Promise wrapper,
 inspired by [this](https://facebook.github.io/react/blog/2015/12/16/ismounted-antipattern.html) article from React blog.
 
