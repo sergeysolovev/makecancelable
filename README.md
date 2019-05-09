@@ -45,7 +45,7 @@ setTimeout(() => {
 }, 1000);
 ```
 
-\* It’s worth mention that calling `cancel` doesn’t cancel fetching the
+\* It’s worth mentioning that calling `cancel` doesn’t cancel fetching the
 resource. Instead, it cancels rendering opening crawl (and errors if any).
 
 For complete specification, see
