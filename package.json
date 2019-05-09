@@ -27,10 +27,11 @@
   },
   "homepage": "https://github.com/sergeysolovev/makecancelable#readme",
   "devDependencies": {
+    "@babel/core": "7.4.4",
+    "@babel/preset-env": "7.4.4",
     "babel-cli": "6.24.1",
-    "babel-jest": "20.0.3",
-    "babel-preset-es2015": "6.24.1",
-    "jest": "20.0.4",
+    "babel-jest": "24.7.1",
+    "jest": "24.7.1",
     "regenerator-runtime": "0.10.5",
     "sinon": "2.3.2"
   }
