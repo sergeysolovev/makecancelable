@@ -1,6 +1,6 @@
 {
   "name": "makecancelable",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Yet another makeCancelable Promise wrapper",
   "main": "dist/makecancelable.cjs.js",
   "module": "dist/makecancelable.esm.js",
