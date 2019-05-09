@@ -6,7 +6,7 @@
   "module": "dist/makecancelable.esm.js",
   "scripts": {
     "build": "rollup -c",
-    "prepublishOnly": "npm run build",
+    "prepublishOnly": "yarn build",
     "test": "jest"
   },
   "repository": {
