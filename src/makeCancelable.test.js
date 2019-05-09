@@ -1,6 +1,6 @@
-import makeCancelable from './makeCancelable'
-import flushPromises from './flushPromises'
-import sinon from 'sinon'
+import makeCancelable from './makeCancelable';
+import flushPromises from './flushPromises';
+import sinon from 'sinon';
 
 describe('makeCancelable', () => {
   it('should return a function', () => {
@@ -15,7 +15,8 @@ describe('makeCancelable', () => {
     const onfulfilled = sinon.spy();
     makeCancelable(promise, onfulfilled);
     return flushPromises().then(() =>
-      expect(onfulfilled.calledWith(obj)).toBe(true));
+      expect(onfulfilled.calledWith(obj)).toBe(true)
+    );
   });
 
   it('calls @onrejected with the same value @promise to be rejected', () => {
@@ -24,7 +25,8 @@ describe('makeCancelable', () => {
     const onrejected = sinon.spy();
     makeCancelable(promise, null, onrejected);
     return flushPromises().then(() =>
-      expect(onrejected.calledWith(obj)).toBe(true));
+      expect(onrejected.calledWith(obj)).toBe(true)
+    );
   });
 
   it(`should not call @onfulfilled
@@ -34,8 +36,7 @@ describe('makeCancelable', () => {
     const onfulfilled = sinon.spy();
     const cancel = makeCancelable(promise, onfulfilled);
     cancel();
-    return flushPromises().then(() =>
-      expect(onfulfilled.notCalled).toBe(true));
+    return flushPromises().then(() => expect(onfulfilled.notCalled).toBe(true));
   });
 
   it(`should not call @onrejected
@@ -45,8 +46,7 @@ describe('makeCancelable', () => {
     const onrejected = sinon.spy();
     const cancel = makeCancelable(promise, null, onrejected);
     cancel();
-    return flushPromises().then(() =>
-      expect(onrejected.notCalled).toBe(true));
+    return flushPromises().then(() => expect(onrejected.notCalled).toBe(true));
   });
 
   it(`should not call @onrejected and @onrejected
@@ -70,8 +70,7 @@ describe('makeCancelable', () => {
     const onfulfilled = sinon.spy();
     const cancel = makeCancelable(promise, onfulfilled);
     cancel();
-    return flushPromises().then(() =>
-      expect(onfulfilled.notCalled).toBe(true));
+    return flushPromises().then(() => expect(onfulfilled.notCalled).toBe(true));
   });
 
   it(`should not call @onrejected
@@ -81,8 +80,7 @@ describe('makeCancelable', () => {
     const onrejected = sinon.spy();
     const cancel = makeCancelable(promise, null, onrejected);
     cancel();
-    return flushPromises().then(() =>
-      expect(onrejected.notCalled).toBe(true));
+    return flushPromises().then(() => expect(onrejected.notCalled).toBe(true));
   });
 
   it(`should not call @onrejected and @onrejected

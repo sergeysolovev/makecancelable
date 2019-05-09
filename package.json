@@ -9,6 +9,11 @@
     "prepublishOnly": "yarn build",
     "test": "jest"
   },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dist/"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sergeysolovev/makecancelable.git"
