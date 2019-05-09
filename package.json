@@ -2,9 +2,10 @@
   "name": "makecancelable",
   "version": "1.0.0",
   "description": "Yet another makeCancelable Promise wrapper",
-  "main": "dist/makeCancelable.js",
+  "main": "dist/makecancelable.cjs.js",
+  "module": "dist/makecancelable.esm.js",
   "scripts": {
-    "build": "babel src -d dist",
+    "build": "rollup -c",
     "prepublishOnly": "npm run build",
     "test": "jest"
   },
@@ -29,10 +30,11 @@
   "devDependencies": {
     "@babel/core": "7.4.4",
     "@babel/preset-env": "7.4.4",
-    "babel-cli": "6.24.1",
     "babel-jest": "24.7.1",
     "jest": "24.7.1",
     "regenerator-runtime": "0.10.5",
+    "rollup": "1.11.3",
+    "rollup-plugin-babel": "4.3.2",
     "sinon": "2.3.2"
   }
 }
