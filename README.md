@@ -1,5 +1,6 @@
 # makecancelable
 
+[![npm version](https://img.shields.io/npm/v/makecancelable.svg?style=flat)](https://npmjs.org/package/makecancelable)
 [![CircleCI](https://circleci.com/gh/sergeysolovev/makecancelable.svg?style=shield)](https://circleci.com/gh/sergeysolovev/makecancelable)
 
 Yet another makeCancelable Promise wrapper, inspired by
